@@ -1,7 +1,7 @@
 #Code Book
 ##Description of Variables
-All variables in data are listed below:
- [1] "activities"                      "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"              
+All variables in data are listed below:    
+` [1] "activities"                      "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"              
  [4] "tBodyAcc-mean()-Z"               "tGravityAcc-mean()-X"            "tGravityAcc-mean()-Y"           
  [7] "tGravityAcc-mean()-Z"            "tBodyAccJerk-mean()-X"           "tBodyAccJerk-mean()-Y"          
 [10] "tBodyAccJerk-mean()-Z"           "tBodyGyro-mean()-X"              "tBodyGyro-mean()-Y"             
@@ -27,35 +27,37 @@ All variables in data are listed below:
 [70] "fBodyAcc-std()-Z"                "fBodyAccJerk-std()-X"            "fBodyAccJerk-std()-Y"           
 [73] "fBodyAccJerk-std()-Z"            "fBodyGyro-std()-X"               "fBodyGyro-std()-Y"              
 [76] "fBodyGyro-std()-Z"               "fBodyAccMag-std()"               "fBodyBodyAccJerkMag-std()"      
-[79] "fBodyBodyGyroMag-std()"          "fBodyBodyGyroJerkMag-std()" 
+[79] "fBodyBodyGyroMag-std()"          "fBodyBodyGyroJerkMag-std()" `
 
-These variables ere obtained from signalls:
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-and were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+These variables ere obtained from signalls:    
+tBodyAcc-XYZ    
+tGravityAcc-XYZ    
+tBodyAccJerk-XYZ    
+tBodyGyro-XYZ    
+tBodyGyroJerk-XYZ    
+tBodyAccMag    
+tGravityAccMag    
+tBodyAccJerkMag    
+tBodyGyroMag    
+tBodyGyroJerkMag    
+fBodyAcc-XYZ    
+fBodyAccJerk-XYZ    
+fBodyGyro-XYZ    
+fBodyAccMag    
+fBodyAccJerkMag    
+fBodyGyroMag    
+fBodyGyroJerkMag    
+and were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.    
 
-The set of variables that were estimated from these signals are: 
-mean(): Mean value
-std(): Standard deviation
 
-##Description of data
-Data contains 10299 measurements of sensor signals obtained from:
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+The set of variables that were estimated from these signals are:     
+mean(): Mean value    
+std(): Standard deviation    
+
+##Description of data    
+Data contains 10299 measurements of sensor signals obtained from:    
+Human Activity Recognition Using Smartphones Dataset,
+Version 1.0        
+
 
 The initial data set was rearranged to reduce amount of columns to those describing mean and standard deviation.
